@@ -1,5 +1,5 @@
 import ExperienceCard from "../components/ExperienceCard"
-import certificate from "../assets/icons/certificate.pdf";
+import certificate from "../assets/icons/Certificate.pdf";
 
 const experiences = [
   {
