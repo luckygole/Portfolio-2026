@@ -17,7 +17,7 @@ const experiences = [
   desc: "Developed a premium jewellery e-commerce website using modern technologies with a focus on performance and user experience. Built a fully responsive UI with product showcase, category navigation, and smooth interactions. Integrated EmailJS for contact functionality and optimized the application for fast loading and scalability.",
   tech: ["React", "Tailwind CSS", "JavaScript", "EmailJS"],
   live: "https://ganesh-jewellery.vercel.app/",
-  github: "https://github.com/luckygole/jewellery"
+  github: "https://github.com/luckygole/Ganesh-art-jewellery"
 },
  {
   date: "2025",

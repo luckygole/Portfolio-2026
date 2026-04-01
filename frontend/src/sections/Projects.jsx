@@ -4,24 +4,15 @@ import ProjectModal from "../components/ProjectModal"
 import { motion } from "framer-motion"
 
 import ide from "../assets/images/ide.png"
-import aiwebsite from "../assets/images/aiwebsite.png"
 import codereview from "../assets/images/codereview.png"
 import kota from "../assets/images/kota.png"
 import imageenhancer from "../assets/images/imageenhancer.png"
 import collegelibrary from "../assets/images/collegelibrary.png"
-import snapmood from "../assets/images/snapmood.png"
-import memory from "../assets/images/memory.png"
 import spotify from "../assets/images/spotify.png"
-import leaderboard from "../assets/images/leaderboard.png"
 import rejouice from "../assets/images/rejuice.png"
-import quiz from "../assets/images/quiz.png"
-import imgslider from "../assets/images/img-slide.png"
-import ecommerce from "../assets/images/e-commerce.png"
 import fanta from "../assets/images/fanta.png"
 import magma from "../assets/images/magma.png"
-import travel from "../assets/images/travel-image.png"
 import earphone from "../assets/images/earphone.png"
-import weather from "../assets/images/weather.png"
 import golf from "../assets/images/golf.png"
 import tracker from "../assets/images/tracker.png"
 import stayfinder from "../assets/images/stayfinder.png"
@@ -32,11 +23,7 @@ import food from "../assets/images/food.png"
 import netflix from "../assets/images/netflix.png"
 import youtube from "../assets/images/youtube.png"
 import auracafe from "../assets/images/auracafe.png"
-
-
-
-
-
+import jewellery from "../assets/images/jewellery.png";
 
 
 const projectsData = [
@@ -48,7 +35,7 @@ const projectsData = [
   desc: "A cloud-based multi-language code editor that enables users to write, execute, and manage code projects directly in the browser. Built with a VS Code-like Monaco Editor, it supports multiple programming languages, secure authentication, and real-time execution using external APIs.",
   tech: "React (Vite), Node.js, Express, MongoDB, Tailwind CSS, Monaco Editor, Clerk Auth, Glot API",
   github: "https://github.com/luckygole/Multi-code-IDE",
-  live: "multi-code-ide-pi.vercel.app",
+  live: "https://multi-code-ide-pi.vercel.app/",
   features: [
     "Multi-language code execution (Python, JS, C, C++, Java, Bash)",
     "Monaco Editor (VS Code-like)",
@@ -60,21 +47,21 @@ const projectsData = [
 
 {
   id: 2,
-  title: "stayFinder",
-  category: "fullstack",
-  image: stayfinder,
-  desc: "StayFinder is a modern full-stack property listing and booking platform inspired by apps like Airbnb. It allows users to explore listings, create properties, leave reviews, and interact with a real-world booking system — all built with a scalable architecture.",
-  tech: "React, Tailwind, Node.js, MongoDB, Groq API",
-  github: "https://github.com/luckygole/stayfinder",
-  live: "listing-llhz.onrender.com/listings",
+  title: "Ganesh Jewellery",
+  category: "freelancing",
+  image: jewellery, // apni image import kar lena
+  desc: "Developed a premium jewellery website with a modern and responsive design using React and Tailwind CSS. Implemented product showcase, category-based browsing, and smooth UI interactions to enhance user engagement. Integrated EmailJS for real-time communication and optimized the application for performance and scalability.",  
+  tech: "React (Vite), Cashfree , Tailwind CSS, JavaScript, EmailJS",
+  github: "https://github.com/luckygole/Ganesh-art-jewellery",
+  live: "https://ganesh-jewellery.vercel.app/",
   features: [
-    "Generate websites using AI prompts",
-    "Dynamic frontend code generation",
-    "Live preview system",
-    "Backend AI processing"
+    "Fully responsive modern UI design",
+    "Product showcase with category-based browsing",
+    "Smooth scrolling and interactive UI effects",
+    "Contact form with EmailJS integration",
+    "Optimized performance and fast loading"
   ]
 },
-
 {
   id: 3,
   title: "College Library System",
@@ -91,9 +78,25 @@ const projectsData = [
     "Centralized study access"
   ]
 },
-
 {
   id: 4,
+  title: "stayFinder",
+  category: "fullstack",
+  image: stayfinder,
+  desc: "StayFinder is a modern full-stack property listing and booking platform inspired by apps like Airbnb. It allows users to explore listings, create properties, leave reviews, and interact with a real-world booking system — all built with a scalable architecture.",
+  tech: "React, Tailwind, Node.js, MongoDB, Groq API",
+  github: "https://github.com/luckygole/stayfinder",
+  live: "listing-llhz.onrender.com/listings",
+  features: [
+    "Generate websites using AI prompts",
+    "Dynamic frontend code generation",
+    "Live preview system",
+    "Backend AI processing"
+  ]
+},
+
+{
+  id: 5,
   title: "Prompt Hub",
   category: "fullstack",
   image: prompthub, // replace with your image variable
@@ -112,7 +115,7 @@ const projectsData = [
 },
 
 {
-  id: 5,
+  id: 6,
   title: "Kota Refrigeration Website",
   category: "freelancing",
   image: kota,
@@ -129,7 +132,7 @@ const projectsData = [
 },
 
 {
-  id: 6,
+  id: 7,
   title: "AI Image Enhancer",
   category: "frontend",
   image: imageenhancer,
@@ -146,7 +149,7 @@ const projectsData = [
 },
 
 {
-  id: 7,
+  id: 8,
   title: "AI Code Reviewer",
   category: "fullstack",
   image: codereview,
@@ -163,7 +166,7 @@ const projectsData = [
 },
 
 {
-  id: 8,
+  id: 9,
   title: "Bhargava Coaching Website",
   category: "freelancing",
   image: bhargava, // replace with your image variable
@@ -182,7 +185,7 @@ const projectsData = [
 },
 
 {
-  id: 13,
+  id: 10,
   title: "Aura Cafe Website",
   category: "frontend",
   image: auracafe, // replace with your image variable
@@ -200,27 +203,27 @@ const projectsData = [
   ]
 },
 
-{
-  id: 9,
-  title: "Shoes Store Website",
-  category: "frontend",
-  image: shoes, // replace with your image variable
-  desc: "A modern and responsive shoe store website designed to showcase trending products, categories, and pricing with a clean and engaging e-commerce UI experience.",
-  tech: "HTML, CSS, JavaScript",
-  github: "https://github.com/luckygole/shoes-website-frontend",
-  live: "https://ear-buds-8uow-hxw3zfaci-lucky-goles-projects.vercel.app/",
-  features: [
-    "Responsive e-commerce UI",
-    "Product listing with pricing",
-    "Trending shoes section",
-    "Clean navigation system",
-    "Category-based display (sports, casual, formal)",
-    "Interactive buttons (Add to Cart / Buy Now)"
-  ]
-},
+// {
+//   id: 11,
+//   title: "Shoes Store Website",
+//   category: "frontend",
+//   image: shoes, // replace with your image variable
+//   desc: "A modern and responsive shoe store website designed to showcase trending products, categories, and pricing with a clean and engaging e-commerce UI experience.",
+//   tech: "HTML, CSS, JavaScript",
+//   github: "https://github.com/luckygole/shoes-website-frontend",
+//   live: "https://ear-buds-8uow-hxw3zfaci-lucky-goles-projects.vercel.app/",
+//   features: [
+//     "Responsive e-commerce UI",
+//     "Product listing with pricing",
+//     "Trending shoes section",
+//     "Clean navigation system",
+//     "Category-based display (sports, casual, formal)",
+//     "Interactive buttons (Add to Cart / Buy Now)"
+//   ]
+// },
 
 {
-  id: 10,
+  id: 11,
   title: "Rejouice Clone",
   category: "clones",
   image: rejouice,
@@ -235,21 +238,21 @@ const projectsData = [
   ]
 },
 
-{
-  id: 11,
-  title: "Fanta Can Animation Website",
-  category: "frontend",
-  image: fanta,
-  desc: "A modern frontend project showcasing smooth animations and transitions using GSAP.",
-  tech: "HTML, CSS, JS, GSAP",
-  github: "https://github.com/luckygole/Fanta-can-animation-",
-  live: "https://luckygole.github.io/Fanta-can-animation-/",
-  features: [
-    "Smooth animations",
-    "Interactive UI",
-    "Modern design"
-  ]
-},
+// {
+//   id: 13,
+//   title: "Fanta Can Animation Website",
+//   category: "frontend",
+//   image: fanta,
+//   desc: "A modern frontend project showcasing smooth animations and transitions using GSAP.",
+//   tech: "HTML, CSS, JS, GSAP",
+//   github: "https://github.com/luckygole/Fanta-can-animation-",
+//   live: "https://luckygole.github.io/Fanta-can-animation-/",
+//   features: [
+//     "Smooth animations",
+//     "Interactive UI",
+//     "Modern design"
+//   ]
+// },
 
 {
   id: 12,
@@ -267,29 +270,29 @@ const projectsData = [
   ]
 },
 
+// {
+//   id: 15,
+//   title: "Food Website",
+//   category: "frontend",
+//   image: food, // replace with your image variable
+//   desc: "A modern and responsive food website designed to showcase delicious meals, categories, and menu items with an engaging UI and smooth user experience.",
+//   tech: "HTML, CSS, JavaScript",
+//   github: "https://github.com/luckygole/Food-website",
+//   live: "https://luckygole.github.io/Food-website/", // add if deployed
+//   features: [
+//     "Responsive food UI design",
+//     "Menu and category sections",
+//     "Attractive food showcase",
+//     "Smooth scrolling and layout",
+//     "Clean and modern interface",
+//     "Optimized for all screen sizes"
+//   ]
+// },
+
+
+
 {
   id: 13,
-  title: "Food Website",
-  category: "frontend",
-  image: food, // replace with your image variable
-  desc: "A modern and responsive food website designed to showcase delicious meals, categories, and menu items with an engaging UI and smooth user experience.",
-  tech: "HTML, CSS, JavaScript",
-  github: "https://github.com/luckygole/Food-website",
-  live: "https://luckygole.github.io/Food-website/", // add if deployed
-  features: [
-    "Responsive food UI design",
-    "Menu and category sections",
-    "Attractive food showcase",
-    "Smooth scrolling and layout",
-    "Clean and modern interface",
-    "Optimized for all screen sizes"
-  ]
-},
-
-
-
-{
-  id: 16,
   title: "Earphone Website",
   category: "frontend",
   image: earphone,
@@ -305,28 +308,28 @@ const projectsData = [
 },
 
 
-{
-  id: 18,
-  title: "Netflix Clone",
-  category: "frontend",
-  image: netflix, // replace with your image variable
-  desc: "A responsive Netflix-inspired web application that replicates the core UI of a modern streaming platform, featuring movie sections, banners, and an engaging user interface.",
-  tech: "HTML, CSS, JavaScript",
-  github: "https://github.com/luckygole/netflix-clone",
-  live: "https://luckygole.github.io/netflix-clone/", // add if deployed
-  features: [
-    "Netflix-inspired UI design",
-    "Hero banner with featured content",
-    "Movie and category sections",
-    "Responsive layout for all devices",
-    "Interactive hover effects",
-    "Clean and modern streaming UI"
-  ]
-},
+// {
+//   id: 17,
+//   title: "Netflix Clone",
+//   category: "frontend",
+//   image: netflix, // replace with your image variable
+//   desc: "A responsive Netflix-inspired web application that replicates the core UI of a modern streaming platform, featuring movie sections, banners, and an engaging user interface.",
+//   tech: "HTML, CSS, JavaScript",
+//   github: "https://github.com/luckygole/netflix-clone",
+//   live: "https://luckygole.github.io/netflix-clone/", // add if deployed
+//   features: [
+//     "Netflix-inspired UI design",
+//     "Hero banner with featured content",
+//     "Movie and category sections",
+//     "Responsive layout for all devices",
+//     "Interactive hover effects",
+//     "Clean and modern streaming UI"
+//   ]
+// },
 
 {
-  id: 19,
-  title: "Golf Website",
+  id: 14,
+  title: "SidCup family Golf",
   category: "clones",
   image: golf,
   desc: "A modern animated golf-themed website built with GSAP focusing on interactive design.",
@@ -340,23 +343,23 @@ const projectsData = [
   ]
 },
 
+// {
+//   id: 19,
+//   title: "Spotify Clone",
+//   category: "clones",
+//   image: spotify,
+//   desc: "A frontend clone of Spotify built using HTML and CSS, replicating its layout and UI design.",
+//   tech: "HTML, CSS",
+//   github: "https://github.com/Bhumika-Sahu-bit/spotify-clone",
+//   live: "https://bhumika-sahu-bit.github.io/spotify-clone/",
+//   features: [
+//     "UI replication",
+//     "Clean layout",
+//     "Responsive design"
+//   ]
+// },
 {
-  id: 20,
-  title: "Spotify Clone",
-  category: "clones",
-  image: spotify,
-  desc: "A frontend clone of Spotify built using HTML and CSS, replicating its layout and UI design.",
-  tech: "HTML, CSS",
-  github: "https://github.com/Bhumika-Sahu-bit/spotify-clone",
-  live: "https://bhumika-sahu-bit.github.io/spotify-clone/",
-  features: [
-    "UI replication",
-    "Clean layout",
-    "Responsive design"
-  ]
-},
-{
-  id: 21,
+  id: 15,
   title: "Real-Time Location Tracker",
   category: "fullstack",
   image: tracker, 
@@ -374,24 +377,24 @@ const projectsData = [
     "Fast and efficient real-time communication"
   ]
 },
-{
-  id: 22,
-  title: "YouTube Clone",
-  category: "frontend",
-  image: youtube, // replace with your image variable
-  desc: "A responsive YouTube clone built to replicate the core UI of the YouTube platform, including video listings, navigation bar, and search interface for a realistic user experience.",
-  tech: "HTML, CSS, JavaScript",
-  github: "https://github.com/luckygole/Youtube-clone",
-  live: "https://luckygole.github.io/Youtube-clone/",
-  features: [
-    "YouTube-inspired UI design",
-    "Responsive video grid layout",
-    "Navigation bar with sidebar",
-    "Search bar interface",
-    "Video thumbnails with details",
-    "Clean and modern layout"
-  ]
-}
+// {
+//   id: 21,
+//   title: "YouTube Clone",
+//   category: "frontend",
+//   image: youtube, // replace with your image variable
+//   desc: "A responsive YouTube clone built to replicate the core UI of the YouTube platform, including video listings, navigation bar, and search interface for a realistic user experience.",
+//   tech: "HTML, CSS, JavaScript",
+//   github: "https://github.com/luckygole/Youtube-clone",
+//   live: "https://luckygole.github.io/Youtube-clone/",
+//   features: [
+//     "YouTube-inspired UI design",
+//     "Responsive video grid layout",
+//     "Navigation bar with sidebar",
+//     "Search bar interface",
+//     "Video thumbnails with details",
+//     "Clean and modern layout"
+//   ]
+// }
 ]
 
 const filters = ["all", "freelancing", "fullstack", "frontend", "clones"]
