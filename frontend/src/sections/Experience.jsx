@@ -10,13 +10,24 @@ const experiences = [
   tech: ["HTML", "CSS", "JavaScript", "React", "PHP", "MySQL", "Laravel"],
   certificate: certificate,
 },
+// {
+//   date: "2025",
+//   role: "Freelance",
+//   company: "Ganesh Jewellery",
+//   desc: "Developed a premium jewellery e-commerce website using modern technologies with a focus on performance and user experience. Built a fully responsive UI with product showcase, category navigation, and smooth interactions. Integrated EmailJS for contact functionality and optimized the application for fast loading and scalability.",
+//   tech: ["React", "Tailwind CSS", "JavaScript", "EmailJS"],
+//   live: "https://ganesh-jewellery.vercel.app/",
+//   github: "https://github.com/luckygole/Ganesh-art-jewellery"
+// },
 {
   date: "2025",
-  role: "Freelance",
-  company: "Ganesh Jewellery",
-  desc: "Developed a premium jewellery e-commerce website using modern technologies with a focus on performance and user experience. Built a fully responsive UI with product showcase, category navigation, and smooth interactions. Integrated EmailJS for contact functionality and optimized the application for fast loading and scalability.",
-  tech: ["React", "Tailwind CSS", "JavaScript", "EmailJS"],
-  live: "https://ganesh-jewellery.vercel.app/",
+  role: "Freelance Full Stack Developer",
+  company: "Ganesh Art Jewellery",
+  desc: "Designed and developed a production-ready full-stack jewellery e-commerce platform for a real client. Implemented secure payment integration, authentication system, and a complete admin dashboard for managing products, categories, users, and orders. Built a scalable architecture with category and subcategory-based product management, notification system, and optimized performance for real-world usage.",
+  
+  tech: ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Cashfree Payments", "JWT/Auth", "EmailJS"],
+  
+  live: "https://ganesh-jewellery.vercel.app/user",
   github: "https://github.com/luckygole/Ganesh-art-jewellery"
 },
  {

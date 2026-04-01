@@ -45,21 +45,45 @@ const projectsData = [
   ]
 },
 
+// {
+//   id: 2,
+//   title: "Ganesh Jewellery",
+//   category: "freelancing",
+//   image: jewellery, // apni image import kar lena
+//   desc: "Developed a premium jewellery website with a modern and responsive design using React and Tailwind CSS. Implemented product showcase, category-based browsing, and smooth UI interactions to enhance user engagement. Integrated EmailJS for real-time communication and optimized the application for performance and scalability.",  
+//   tech: "React (Vite), Cashfree , Tailwind CSS, JavaScript, EmailJS",
+//   github: "https://github.com/luckygole/Ganesh-art-jewellery",
+//   live: "https://ganesh-jewellery.vercel.app/",
+//   features: [
+//     "Fully responsive modern UI design",
+//     "Product showcase with category-based browsing",
+//     "Smooth scrolling and interactive UI effects",
+//     "Contact form with EmailJS integration",
+//     "Optimized performance and fast loading"
+//   ]
+// },
 {
   id: 2,
-  title: "Ganesh Jewellery",
+  title: "Ganesh Art Jewellery",
   category: "freelancing",
-  image: jewellery, // apni image import kar lena
-  desc: "Developed a premium jewellery website with a modern and responsive design using React and Tailwind CSS. Implemented product showcase, category-based browsing, and smooth UI interactions to enhance user engagement. Integrated EmailJS for real-time communication and optimized the application for performance and scalability.",  
-  tech: "React (Vite), Cashfree , Tailwind CSS, JavaScript, EmailJS",
+  image: jewellery,
+  desc: "Developed a production-ready full-stack jewellery e-commerce platform for a real client, featuring secure payment integration, authentication, and a complete admin dashboard. Implemented category and subcategory-based product management, order handling, and notification system to deliver a scalable and business-oriented solution.",
+  
+  tech: "React (Vite), Node.js, Express.js, MongoDB, Tailwind CSS, Cashfree Payments, JWT/Auth, EmailJS",
+
   github: "https://github.com/luckygole/Ganesh-art-jewellery",
-  live: "https://ganesh-jewellery.vercel.app/",
+  live: "https://ganesh-jewellery.vercel.app/user",
+
   features: [
-    "Fully responsive modern UI design",
-    "Product showcase with category-based browsing",
-    "Smooth scrolling and interactive UI effects",
-    "Contact form with EmailJS integration",
-    "Optimized performance and fast loading"
+    "Full-stack e-commerce platform with real-world business logic",
+    "Secure payment integration using Cashfree",
+    "User authentication system (Login/Signup)",
+    "Advanced admin dashboard for products, users, and orders",
+    "Category & subcategory-based product management",
+    "Order management and tracking system",
+    "Notification system for user interactions",
+    "Fully responsive and modern UI with Tailwind CSS",
+    "Optimized performance and scalable architecture"
   ]
 },
 {
