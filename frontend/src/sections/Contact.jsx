@@ -14,10 +14,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_mpmus7h",
-        "template_fwzsosa",
+        "service_82ic0e9",
+        "template_ww00g0p",
         form.current,
-        "D_96KYKbyOpMoL-2E"
+        "KefeshReERuHQWBoC"
       )
       .then(
         () => {
