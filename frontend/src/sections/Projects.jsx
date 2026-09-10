@@ -24,6 +24,7 @@ import netflix from "../assets/images/netflix.png"
 import youtube from "../assets/images/youtube.png"
 import auracafe from "../assets/images/auracafe.png"
 import jewellery from "../assets/images/jewellery.png";
+import bodyCareGym from "../assets/images/body-care-gym.jpg";
 
 
 const projectsData = [
@@ -45,23 +46,6 @@ const projectsData = [
   ]
 },
 
-// {
-//   id: 2,
-//   title: "Ganesh Jewellery",
-//   category: "freelancing",
-//   image: jewellery, // apni image import kar lena
-//   desc: "Developed a premium jewellery website with a modern and responsive design using React and Tailwind CSS. Implemented product showcase, category-based browsing, and smooth UI interactions to enhance user engagement. Integrated EmailJS for real-time communication and optimized the application for performance and scalability.",  
-//   tech: "React (Vite), Cashfree , Tailwind CSS, JavaScript, EmailJS",
-//   github: "https://github.com/luckygole/Ganesh-art-jewellery",
-//   live: "https://ganesh-jewellery.vercel.app/",
-//   features: [
-//     "Fully responsive modern UI design",
-//     "Product showcase with category-based browsing",
-//     "Smooth scrolling and interactive UI effects",
-//     "Contact form with EmailJS integration",
-//     "Optimized performance and fast loading"
-//   ]
-// },
 {
   id: 2,
   title: "Ganesh Art Jewellery",
@@ -207,9 +191,27 @@ const projectsData = [
     "Optimized for all devices"
   ]
 },
-
 {
   id: 10,
+  title: "Body Care Gym Website",
+  category: "frontend",
+  image: bodyCareGym,
+  desc: "A modern and responsive gym website designed to showcase fitness programs, training services, membership options, and gym facilities with an engaging and user-friendly interface.",
+  tech: "React, Tailwind CSS",
+  github: "https://github.com/luckygole/body-care-gym",
+  live: "https://body-care-gym.vercel.app/",
+  features: [
+    "Responsive gym website design",
+    "Fitness programs and services showcase",
+    "Modern and engaging landing page",
+    "Trainer and membership sections",
+    "User-friendly navigation",
+    "Mobile and desktop responsive layout"
+  ]
+},
+
+{
+  id: 11,
   title: "Aura Cafe Website",
   category: "frontend",
   image: auracafe, // replace with your image variable
@@ -247,7 +249,7 @@ const projectsData = [
 // },
 
 {
-  id: 11,
+  id: 12,
   title: "Rejouice Clone",
   category: "clones",
   image: rejouice,
@@ -279,7 +281,7 @@ const projectsData = [
 // },
 
 {
-  id: 12,
+  id: 13,
   title: "Magma Clone",
   category: "clones",
   image: magma,
@@ -316,7 +318,7 @@ const projectsData = [
 
 
 {
-  id: 13,
+  id: 14,
   title: "Earphone Website",
   category: "frontend",
   image: earphone,
@@ -352,7 +354,7 @@ const projectsData = [
 // },
 
 {
-  id: 14,
+  id: 15,
   title: "SidCup family Golf",
   category: "clones",
   image: golf,
@@ -383,7 +385,7 @@ const projectsData = [
 //   ]
 // },
 {
-  id: 15,
+  id: 16,
   title: "Real-Time Location Tracker",
   category: "fullstack",
   image: tracker, 

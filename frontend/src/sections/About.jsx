@@ -102,7 +102,7 @@ const About = () => {
             <span className="text-purple-400">MongoDB</span>, and{" "}
             <span className="text-purple-400">Tailwind CSS</span>, and I also
             build AI-powered applications using{" "}
-            <span className="text-purple-400">Groq</span>,{" "}
+            <span className="text-purple-400">Grok</span>,{" "}
             <span className="text-purple-400">OpenRouter</span>, and{" "}
             <span className="text-purple-400">Gemini APIs</span>.
           </p>
