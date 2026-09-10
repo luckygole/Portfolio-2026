@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import Background from "../canvas/Background"
+// import resumePDF from "../assets/resume/Lucky_Gole_Resume.pdf"
 
 const Hero = () => {
   return (
@@ -54,7 +55,7 @@ const Hero = () => {
             className="mt-10 flex flex-col sm:flex-row gap-4 justify-center"
           >
             <a
-              href="/resume.pdf"
+              href="resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 hover:scale-105 transition font-medium inline-block"
