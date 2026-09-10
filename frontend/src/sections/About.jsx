@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import profileImage from "../assets/images/linkedin-profile.jpeg";
 
 const About = () => {
   return (
@@ -69,7 +70,12 @@ const About = () => {
               flex items-center justify-center
               text-4xl sm:text-5xl lg:text-6xl
             ">
-              👩‍💻
+              {/* 👩‍💻 */}
+                <img
+        src={profileImage}
+        alt="Profile"
+        className="w-full h-full object-cover"
+      />
             </div>
           </div>
         </motion.div>
